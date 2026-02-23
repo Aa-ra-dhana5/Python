@@ -79,3 +79,23 @@ keys = ["a", "b", "c"]
 value = 0   
 new_dict = dict.fromkeys(keys, value)
 print(new_dict) #{'a': 0, 'b': 0, 'c': 0}
+
+#keys() --- returns all the keys
+print(new_dict.keys()) #dict_keys(['a', 'b', 'c'])
+#now to access element convert to list
+
+#values()
+print(new_dict.values()) #dict_values([0, 0, 0])
+#convert to list to access element
+
+#update()
+new_dict.update({"D" : 0})
+print(new_dict)
+
+
+#setdefault() method to return value of the specific key
+#If key is not found then it inserts ley with the specified valie
+
+print(new_dict.setdefault('m')) #if value is not given then none assings as value
+print(new_dict.setdefault('n', 3))
+print(new_dict)
