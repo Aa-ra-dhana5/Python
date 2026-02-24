@@ -1,4 +1,4 @@
-#property decorator to make sure the model attribute should not be aread only
+#property decorator to make sure the model attribute should be read only
 
 
 class Car : 

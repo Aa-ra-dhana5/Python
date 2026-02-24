@@ -4,15 +4,15 @@ from numpy import *
 
 #using array()
 
-# array_name = numpy.array([101 ,102, 103])
-# array_name = array([101 ,102, 103])
-# print(array_name)
-# print(type(array_name))
+array_name = numpy.array([101 ,102, 103])
+array_name = array([101 ,102, 103])
+print(array_name)
+print(type(array_name))
 
 #define array using linspace
 #linespace( start, end, num =50 , enpoint =True) -- devides in 50 parts default value we can change it 
-# another = linspace( 1 , 8 )
-# print(another.dtype)
+another = linspace( 1 , 8 )
+print(another.dtype)
 
 
 #define array using logspace
