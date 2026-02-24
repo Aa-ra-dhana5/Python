@@ -22,9 +22,21 @@ a3 ={ 101 , 120 , 'new' , 'one'}
 for i in a3:
     print(i)
     
-a3.clear() # clearing set
-print(a3)
+# a3.clear() # clearing set
+# print(a3)
 
+#enumerate()
+
+for i in enumerate(a3):     # if i do write enumerate(a3,start =1) this will start indexing from 1
+    print(i)
+
+#output
+'''
+(0, 120)
+(1, 101)
+(2, 'new')
+(3, 'one')
+'''
 
 #getsizeof() function returns size of an object in bytes
 from sys import *
