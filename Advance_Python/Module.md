@@ -22,3 +22,14 @@ Syntex
 
 
 **module can import other modules.
+
+Namespace Pollution: 
+
+1. With import cla    -- Is good practice
+→ Everything stays inside cla namespace.
+
+2. With from cla import *
+→ Everything is dumped into your current file.
+
+Both load the module once into memory
+
