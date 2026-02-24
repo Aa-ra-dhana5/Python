@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 from bson import ObjectId
 
-client = MongoClient("mongodb+srv://admin:admin@cluster0.9atd5ja.mongodb.net/")
+client = MongoClient("mongodb+srv://<USernaem>:<Password>@cluster0.9atd5ja.mongodb.net/")
 
 db = client["data"]
 video_Collection = db["videos"]
