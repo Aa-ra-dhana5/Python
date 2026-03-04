@@ -30,3 +30,23 @@ it can have arguments
   -- if you are using fetchmany() and do close the connection before fetching all the data it will show error
   --so insted use fetchall()
   -- or use buffred cursor 
+
+
+
+
+Prepared Statement 
+-- is used to execute the same satatemtent repeatedly with high efficiency.
+-- execution cosistes of teo stages: prepare adn execute.
+
+
+
+Prepared Statement vs Parameterized Query
+--Parameterized Query → Safe way to write SQL (Coding technique)
+--Prepared Statement → Performance + security mechanism in DB (Database feature)
+
+
+--In mysql.connector, when you use:
+   cursor.execute(sql, values)
+--It automatically uses prepared statements internally.
+--So in Python (mysql-connector):
+--Parameterized query = Prepared statement (internally)

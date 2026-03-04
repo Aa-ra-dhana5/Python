@@ -1,0 +1,4 @@
+root -- 2026-03-04 19:24:09,136 --this is debug with write mode
+max -- 2026-03-04 19:24:09,136 --this is warning
+root -- 2026-03-04 19:24:09,137 --this is error
+root -- 2026-03-04 19:24:09,137 --this is critical
