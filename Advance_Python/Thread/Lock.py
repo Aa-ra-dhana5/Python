@@ -9,17 +9,17 @@ release() -unlock the lock
 
 from threading import *
 
-class Flight:
+class Flight: 
     def __init__(self , availalable_seat):
         self.availalable_seat = availalable_seat
         self.l =Lock() #lock object
-        print(self.l)
+        print('initial ' ,self.l)
         
     def reserve(self, need_seat):
         #if blocking =flase it will show the error of access lock before realease
         # similarly when it takes time more than 2 sec it shows the same error add sleep() and check
         self.l.acquire()
-        self.l.acquire()
+        # self.l.acquire()
         print(self.l)
         print('Available seat: ', self.availalable_seat)
         if(self.availalable_seat >= need_seat):
@@ -29,7 +29,7 @@ class Flight:
         else:
             print("sorry! all seats are alloted")
         self.l.release() 
-        self.l.release() 
+        # self.l.release() 
         print(self.l)
            
 f = Flight(2)

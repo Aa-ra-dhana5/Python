@@ -1,5 +1,5 @@
 #2. Rlock --A reentatnt lock is synchronization primitive that may be acquired multiple times by the same thread
-#A reetrant loc must be released b ythe thread that aquired it ,,, once thread has acquired a reetant lock , the same thread may acquire it again without blocking
+#A reetrant loc must be released by the thread that aquired it ,,, once thread has acquired a reetant lock , the same thread may acquire it again without blocking
 
 
 
