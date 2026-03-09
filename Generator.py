@@ -1,6 +1,10 @@
 #Genrators are functions that return a sequence of values
-#Yield returns the element frmo genetator function  into genetato object
+#Yield returns the element from genetator function  into genetato object
 #next()  function is used to map element in yield object
+
+'''
+Genrators are faster compare to list thats why we use i
+'''
 
 
 def dip(a, b):
@@ -15,8 +19,10 @@ print(next(result))
 # result1 = list(result)
 # print(result1)
 
+sum(x**x for x in range(10000)) # is more faster compare to 
+sum([x**x for x in range(10000)])
 
-
+ 
 
 
 
