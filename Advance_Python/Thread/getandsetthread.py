@@ -7,7 +7,7 @@ from threading import Thread, current_thread
 
 def disp():
     print("child thread object", current_thread().name)
-    current_thread().name='Display Thread'
+    current_thread().name='Display Thread' # setting name of thread
     print("new name", current_thread().name)
 t =Thread(target=disp)
 t.start()
